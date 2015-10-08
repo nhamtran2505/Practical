@@ -1,0 +1,33 @@
+=====================================================================================================
+A.Brief description of your approach to the problem
+
+1. Find library that support convert from html to text, which one is the easiest to use and install.
+So I decided to use html2text library. Function 1 completed
+2. Seperate document.txt into paragraphs. Focus on the characterized of paragraph to solve this.
+Easy to determine the line begin and end
+3. Write function to find '$' in paragraph.
+4. Intergrated all parameter into dictionary.
+5. Append dictionary to list.
+6. Using json library to write to file paragraph.txt. Function 2 completed
+=====================================================================================================
+B.Approximate amount of time you spent working on your solution
+
+nearly 3 hours
+=====================================================================================================
+C.List of any libraries used, including version information
+
+Library						Version
+-----------------------------------------------------------
+urllib			----			1.17
+html2text		----			3.200.3
+json			----			2.0.9
+=====================================================================================================
+D.Instructions for running
+
+Open terminal run:
+python3.4 practical.py
+=====================================================================================================
+E.Location of output files (document.txt and paragraphs.txt)
+
+The same directory of source
+=====================================================================================================
